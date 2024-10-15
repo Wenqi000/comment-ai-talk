@@ -206,7 +206,6 @@ if __name__ == "__main__":
 
         clean_memory()
 
-    # Save final results
     results_df = pd.DataFrame(results)
     results_df.to_csv('final_results_sentiment_kfold.csv', index=False)
     print("\nK-Fold Cross Validation Complete!")
